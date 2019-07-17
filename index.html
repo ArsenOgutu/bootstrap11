@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Navigation bar and slides</title>
+    <link rel="icon" href="images/mario.jpg">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="css/custom.css">
+    <script src="bootstrap/js/jquery-3.4.1.js"></script>
+    <script src="bootstrap/js/popper.min.js"></script>
+    <script src="bootstrap/js/bootstrap.js"></script>
+</head>
+<body>
+<div class="logo">
+    <img src="images/company%20logo.jpg" alt="Logo" width="100" height="100">
+</div>
+<hr>
+<nav class="navbar navbar-expand-sm bg-secondary navbar-dark">
+    <!-- Brand -->
+<!--    <a class="navbar-brand" href="#">Logo</a>-->
+
+    <!-- Toggler/collapsibe Button -->
+    <button class="navbar-toggler justify-content-center" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Links -->
+
+    <div class="collapse navbar-collapse justify-content-center" id="collapsibleNavbar"
+    </div>
+
+    <ul class="navbar-nav">
+        <li class="nav-item">
+            <a class="nav-link active" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="about%20us.html">About us</a>
+        </li>
+
+        <!-- Dropdown -->
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+               Products and services
+            </a>
+            <div class="dropdown-menu">
+                <a class="dropdown-item" href="Computer%20and%20computer%20services.html">Computer and Computer services</a>
+                <a class="dropdown-item" href="Computer%20Maintainance.html">Computer maintainance</a>
+                <a class="dropdown-item" href="Computer%20networking.html">Computer networking</a>
+                <a class="dropdown-item" href="Graphic%20Design.html">Graphic Design</a>
+                <a class="dropdown-item" href="Web%20Design.html">Web design</a>
+                <a class="dropdown-item" href="Software%20and%20app%20development.html">Software and app development</a>
+
+            </div>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="FAQ.html">FAQ</a>
+        </li>
+
+        <li class="nav-item">
+            <a class="nav-link" href="Contact%20us.html">Contact us</a>
+        </li>
+    </ul>
+</nav>
+<div id="demo" class="carousel slide" data-ride="carousel">
+
+    <!-- Indicators -->
+    <ul class="carousel-indicators">
+        <li data-target="#demo" data-slide-to="0" class="active"></li>
+        <li data-target="#demo" data-slide-to="1"></li>
+        <li data-target="#demo" data-slide-to="2"></li>
+        <li data-target="#demo" data-slide-to="3"></li>
+    </ul>
+
+    <!-- The slideshow -->
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="images/tech%20picture%201.jpeg" alt="image" width="100%"height="100%" >
+            <div class="carousel-caption">
+                <h3>learn coding</h3>
+                <p>Join us today and learn how your computer works from the basics to the most complex stuff </p>
+            </div>
+        </div>
+
+        <div class="carousel-item">
+            <img src="images/tech%20picture%202.jpeg" alt="image2" width="100%" height="100%">
+            <div class="carousel-caption">
+                <h3>M.I.T</h3>
+                <p>This branch of Computer science will enable you to come up with mobile applications and come up with websites</p>
+            </div>
+        </div>
+
+        <div class="carousel-item">
+            <img src="images/tech%20picture%203.jpeg" alt="image 3" width="100%" height="100%">
+            <div class="carousel-caption">
+                <h3>Impact the world</h3>
+                <p>Come with us and impact the world positively</p>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="images/tech%20picture4.jpeg" alt="image 3" width="100%" height="100%" >
+            <div class="carousel-caption">
+                <h3>Enroll with us today</h3>
+                <p>And come and have fun with us</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Left and right controls -->
+    <a class="carousel-control-prev" href="#demo" data-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+    </a>
+    <a class="carousel-control-next" href="#demo" data-slide="next">
+        <span class="carousel-control-next-icon"></span>
+    </a>
+
+</div>
+<div class="container">
+    <div class="row">
+        <div class="col-sm-4">
+            <h3>About us</h3>
+            <p>THE Golden wall school was founded by the Bill and Melinda Gates Foundation based in California, USA. They built the school from the ground to where it I as a means of showing care and support to education especially in third world countries like Kenya. The school is
+                situated at Njoro. One can easily get to the school since it is a fifteen minute drive towards the
+                east of St. Andrew’s Turi. The building of the school in Kenya of all the other countries in the
+                world had many doubts but it has recently caught the eyes of many.</p>
+            <div class="buttons">
+                <a href="about%20us.html" class="btn btn-primary">Read more</a>
+            </div>
+        </div>
+        <div class="col-sm-4">
+            <h3>FAQs</h3>
+            <p>
+                HOW CAN I USE MY REMAINING ACCOUNT CREDITS?
+                We are in the process of removing the option to pay for your orders by ‘Account Credits’. If you have remaining credits in your account, it will be used to pay for your next checkout. If there are insufficient credits, the system will direct you automatically to pay the balance via Paypal.
+
+            <p>WHY MUST I MAKE PAYMENT IMMEDIATELY AT CHECKOUT?
+                Sample ordering is on ‘first-come-first-served’ basis. To ensure that you get your desired samples, it is recommended that you make your payment within 60 minutes of checking out.
+            </p>
+            <div class="buttons">
+                <a href="FAQ.html" class="btn btn-secondary">Read more</a>
+            </div>
+        </div>
+        <div class="col-sm-4">
+            <h3>contact us</h3>
+            <p>contact us at <br>
+            072465848 or 0734846846
+            </p>
+            <div class="buttons">
+                <a href="Contact%20us.html" class="btn btn-danger">Read more</a>
+            </div>
+        </div>
+        </div>
+    </div>
+</div>
+                <div class="footer">
+                    <h4 class="text-center"> copyright &copy Wekare 2019</h4>
+                </div>
+</body>
+</html>
